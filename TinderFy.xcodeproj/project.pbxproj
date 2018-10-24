@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		0A16A6C72180057D00D3AE7E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A16A6C62180057D00D3AE7E /* AppDelegate.swift */; };
-		0A16A6C92180057D00D3AE7E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A16A6C82180057D00D3AE7E /* ViewController.swift */; };
 		0A16A6CC2180057D00D3AE7E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A16A6CA2180057D00D3AE7E /* Main.storyboard */; };
 		0A16A6CE2180057E00D3AE7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A16A6CD2180057E00D3AE7E /* Assets.xcassets */; };
 		0A16A6D12180057E00D3AE7E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A16A6CF2180057E00D3AE7E /* LaunchScreen.storyboard */; };
 		0A16A6DC2180057E00D3AE7E /* TinderFyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A16A6DB2180057E00D3AE7E /* TinderFyTests.swift */; };
 		0A16A6E72180057E00D3AE7E /* TinderFyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A16A6E62180057E00D3AE7E /* TinderFyUITests.swift */; };
+		0A16A6F5218006F100D3AE7E /* CardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A16A6F4218006F100D3AE7E /* CardsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +36,6 @@
 /* Begin PBXFileReference section */
 		0A16A6C32180057D00D3AE7E /* TinderFy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TinderFy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A16A6C62180057D00D3AE7E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0A16A6C82180057D00D3AE7E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0A16A6CB2180057D00D3AE7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0A16A6CD2180057E00D3AE7E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0A16A6D02180057E00D3AE7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +46,7 @@
 		0A16A6E22180057E00D3AE7E /* TinderFyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TinderFyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A16A6E62180057E00D3AE7E /* TinderFyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinderFyUITests.swift; sourceTree = "<group>"; };
 		0A16A6E82180057E00D3AE7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A16A6F4218006F100D3AE7E /* CardsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +98,11 @@
 			isa = PBXGroup;
 			children = (
 				0A16A6C62180057D00D3AE7E /* AppDelegate.swift */,
-				0A16A6C82180057D00D3AE7E /* ViewController.swift */,
 				0A16A6CA2180057D00D3AE7E /* Main.storyboard */,
 				0A16A6CD2180057E00D3AE7E /* Assets.xcassets */,
 				0A16A6CF2180057E00D3AE7E /* LaunchScreen.storyboard */,
 				0A16A6D22180057E00D3AE7E /* Info.plist */,
+				0A16A6F4218006F100D3AE7E /* CardsViewController.swift */,
 			);
 			path = TinderFy;
 			sourceTree = "<group>";
@@ -256,7 +256,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A16A6C92180057D00D3AE7E /* ViewController.swift in Sources */,
+				0A16A6F5218006F100D3AE7E /* CardsViewController.swift in Sources */,
 				0A16A6C72180057D00D3AE7E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
