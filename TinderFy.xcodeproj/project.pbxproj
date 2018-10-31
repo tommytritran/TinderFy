@@ -14,6 +14,7 @@
 		0A16A6DC2180057E00D3AE7E /* TinderFyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A16A6DB2180057E00D3AE7E /* TinderFyTests.swift */; };
 		0A16A6E72180057E00D3AE7E /* TinderFyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A16A6E62180057E00D3AE7E /* TinderFyUITests.swift */; };
 		0A16A6F5218006F100D3AE7E /* CardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A16A6F4218006F100D3AE7E /* CardsViewController.swift */; };
+		0A470C052183818000C03D20 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A470C042183818000C03D20 /* ProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		0A16A6E62180057E00D3AE7E /* TinderFyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinderFyUITests.swift; sourceTree = "<group>"; };
 		0A16A6E82180057E00D3AE7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0A16A6F4218006F100D3AE7E /* CardsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsViewController.swift; sourceTree = "<group>"; };
+		0A470C042183818000C03D20 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				0A16A6CF2180057E00D3AE7E /* LaunchScreen.storyboard */,
 				0A16A6D22180057E00D3AE7E /* Info.plist */,
 				0A16A6F4218006F100D3AE7E /* CardsViewController.swift */,
+				0A470C042183818000C03D20 /* ProfileViewController.swift */,
 			);
 			path = TinderFy;
 			sourceTree = "<group>";
@@ -256,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A470C052183818000C03D20 /* ProfileViewController.swift in Sources */,
 				0A16A6F5218006F100D3AE7E /* CardsViewController.swift in Sources */,
 				0A16A6C72180057D00D3AE7E /* AppDelegate.swift in Sources */,
 			);
